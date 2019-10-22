@@ -1,0 +1,81 @@
+h1 {
+padding: 10ox;
+border: 20px;
+margin: 20px;  
+background: rgb(8, 156, 57); 
+font: 80px;
+float: left;
+color: wheat;
+width: 200px;
+}
+
+section {
+
+    background: yellow;
+    margin: 0 auto;
+        padding-top: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 30px;
+    overflow: hidden;
+width: 960px;
+font-size: 25px;
+float: left;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.NumbertoMatch {
+    float: left;
+    font-size: 50px;
+    width: 100px;
+    height: 125px;
+    background: chartreuse;
+}
+
+.scorebox {
+    font-size: 45px;
+    width: 200px;
+    height: 130px;
+    background: cadetblue;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    
+ }
+
+.jewel { 
+    width: 75px;
+    height: 75px;
+    border: 20px;
+    margin: 60px;
+}
+
+.showntotalscore {
+    background: blue;
+    font-size: 50px;
+    width: 100px;
+    height: 125px;
+    float: left ;
+    margin: 20px;
+    padding: 20px;
+}
+
+img {
+border: greenyellow;
+margin: 10px;
+padding: 10px;
+float: left;
+}
+
+.textbox {
+ background: coral;
+ width: 200px; 
+ height: 100px;
+}
+
+footer {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    background: lightpink;
+}
