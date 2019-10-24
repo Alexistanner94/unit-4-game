@@ -10,48 +10,57 @@
 
 </head>
 
+<h1 class="inner">Crystal Collector!</h1>
 
-<h1>Crystal Collector!</h1>
-
-<section>You will be given a random number at the start of the game.
-    There are 4 crsytals below. By clicking
-    on a crystal you will add a specific amount of points
-    to your total score.
-    You win the game by matching your total score to random number,
-    you lose the game if yout total score goes above the random number.
-    The value of each crystal is hidden from you until you click on it.
-    Each time when the game starts, the game will change the value of each crystal.
-
-</section>
-
-<body>
-
-    <div class="NumbertoMatch"></div>
-
-    <div class="scorebox"> Wins:
-        Losses: </div>
-
-    <div class="container">
-
-        <div class="jewel" data-color="blue"> <img src="assets/images/bluedimond.png" alt=""> </div>
-
-        <div class="jewel" data-color="ruby"> <img src="assets/images/ruby1.png" alt=""> </div>
-
-        <div class="jewel" data-color="pink"> <img src="assets/images/pinkdimond.png" alt=""> </div>
-
-        <div class="jewel" data-color="green"> <img src="assets/images/greenjewel.png" alt=""> </div>
-
-    </div>
-
-    <div class="textbox"> Your total score is:</div>
-
-    <footer class="showntotalscore"> </footer>
+<div class="outer">
 
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="./assets/javascript/game.js"></script>
+    <body background="assets/images/background.png.jpeg" class="inner">
+
+        <section class="inner"> <strong>You will be given a random number at the start of the game.
+                There are 4 crsytals below. By clicking
+                on a crystal you will add a specific amount of points
+                to your total score.
+                You win the game by matching your total score to random number,
+                you lose the game if yout total score goes above the random number.
+                The value of each crystal is hidden from you until you click on it.
+                Each time when the game starts, the game will change the value of each crystal.
+            </strong>
+        </section>
+
+
+        <div class="NumbertoMatch" class="inner"></div>
+
+
+        <div class="scoreboard" class="inner">
+
+            <div class="winloss" class="inner"> Wins:</div>
+            <div class="winloss" class="inner" ]> Loses: </div>
+
+        </div>
+
+
+        <div class="pictures">
+
+            <div class="jewel" data-color="blue"> <img class="inner" src="assets/images/bluedimond.png" alt=""> </div>
+
+            <div class="jewel" data-color="ruby"> <img class="inner" src="assets/images/ruby1.png" alt=""> </div>
+
+            <div class="jewel" data-color="pink"> <img class="inner" src="assets/images/pinkdimond.png" alt=""> </div>
+
+            <div class="jewel" data-color="green"> <img class="inner" src="assets/images/greenjewel.png" alt=""> </div>
+        </div>
+
+        <div class="textbox" class="inner"> <strong> Your Total Score Is: </strong> </div>
+
+        <div class="container" class="inner"> </div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="./assets/javascript/game.js"></script>
 </body>
 
 </html>

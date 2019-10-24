@@ -7,9 +7,8 @@ $('.NumbertoMatch').text(ranNum);
 let crysNum = Math.floor(Math.random() * (12) + 1);
 console.log(crysNum);
 
-// let storedNum = 
 
-const jewels = {
+const jewel = {
     blue: Math.floor(Math.random() * (12) + 1),
     ruby: Math.floor(Math.random() * (12) + 1),
     pink: Math.floor(Math.random() * (12) + 1),
@@ -20,7 +19,18 @@ let userScore = 0;
 
 $('.jewel').on('click', function () {
     const color = $(this).attr('data-color');
-    console.log(jewels[color]);
-    userScore += jewels[color]
-    $(".showntotalscore").text(userScore);
+    console.log(jewel[color]);
+    userScore += jewel[color]
+    $(".container").text(userScore);
 })
+let totalUserScore = 0;
+
+let i = totalUserScore; i >= ranNum.length; i; {
+    if (crysNum === ranNum.length) {
+        $(".win").append(crysNum);
+
+    }
+    else if (crysNum > ranNum.length) {
+        $("loss").append(crysNum);
+    }
+}

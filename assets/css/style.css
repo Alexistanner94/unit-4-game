@@ -1,81 +1,92 @@
 h1 {
-padding: 10ox;
-border: 20px;
-margin: 20px;  
-background: rgb(8, 156, 57); 
-font: 80px;
-float: left;
-color: wheat;
-width: 200px;
+background:green; 
+font-size: 75px;
+color:white;
+width: auto 0;
+display: inline-block;
 }
 
 section {
+background: yellow;
+padding-left: auto;
+padding-right:auto;
+overflow: hidden;
+width: auto 0;
+height: 300px;
+font-size: 30px;
+font-family: fantasy;
+color: black;
+text-align: left;
 
-    background: yellow;
-    margin: 0 auto;
-        padding-top: 30px;
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-bottom: 30px;
-    overflow: hidden;
-width: 960px;
-font-size: 25px;
-float: left;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .NumbertoMatch {
-    float: left;
-    font-size: 50px;
-    width: 100px;
-    height: 125px;
-    background: chartreuse;
-}
-
-.scorebox {
-    font-size: 45px;
+    font-size: 60px;
     width: 200px;
     height: 130px;
-    background: cadetblue;
+    background:orange;
     float: left;
-    margin: 10px;
-    padding: 10px;
-    
+    position: relative;
+    text-align: center;
  }
+   
 
 .jewel { 
-    width: 75px;
-    height: 75px;
+    width: 0 auto;
+    height: 0px;
     border: 20px;
     margin: 60px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    float: left;
+    position: relative;
 }
 
-.showntotalscore {
-    background: blue;
-    font-size: 50px;
-    width: 100px;
-    height: 125px;
+.container {
+    font-size: 70px;
+    width: 300px ;
+    height: 300px;
     float: left ;
-    margin: 20px;
-    padding: 20px;
+    color: white;
+
 }
 
 img {
-border: greenyellow;
-margin: 10px;
-padding: 10px;
-float: left;
+
+margin: 0 auto;
+padding: 0 auto;
+height: 125px;
+width: 100px;
+display: inline-block;
+background: rgb(221, 15, 152);
+
 }
 
 .textbox {
- background: coral;
- width: 200px; 
- height: 100px;
+ background: rgb(6, 2, 207);
+ color: white;
+ font-size:50px;
+ font-family: fantasy;
+ position: relative;   
+
+margin-bottom: auto;
+ 
+ 
 }
 
-footer {
-    margin: 0 auto;
-    width: 100px;
-    height: 100px;
-    background: lightpink;
+.pictures {
+    display: inline-block;
+    
+    width: 960px ;
+
 }
+
+.winloss{
+color: wheat;
+background: lightseagreen;
+font-size: 50px;
+display: inline-flex;
+}
+
