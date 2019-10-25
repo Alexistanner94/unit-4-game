@@ -23,14 +23,17 @@ $('.jewel').on('click', function () {
     userScore += jewel[color]
     $(".container").text(userScore);
 })
-let totalUserScore = 0;
 
-let i = totalUserScore; i >= ranNum.length; i; {
-    if (crysNum === ranNum.length) {
-        $(".win").append(crysNum);
+let winSs = 0;
+let loSs = 0;
 
-    }
-    else if (crysNum > ranNum.length) {
-        $("loss").append(crysNum);
-    }
+if (ranNum === crysNum) {
+    $("#win").text(userScore)
+    alert("You Won!");
 }
+
+else if (ranNum < crysNum) {
+    $("#loser").text(userScore)
+    alert("You Loss!")
+}
+
