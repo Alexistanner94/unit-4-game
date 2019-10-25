@@ -6,6 +6,7 @@ $('.NumbertoMatch').text(ranNum);
 
 let crysNum = Math.floor(Math.random() * (12) + 1);
 console.log(crysNum);
+console.log(ranNum)
 
 
 const jewel = {
@@ -24,16 +25,19 @@ $('.jewel').on('click', function () {
     $(".container").text(userScore);
 })
 
-let winSs = 0;
-let loSs = 0;
+// const count = 0;
+// count < crysNum; i++;
 
-if (ranNum === crysNum) {
+// for (let wins = 1; wins > ranNum; win++) {
+//     document.getElementById("#win")++;
+
+if (crysNum === ranNum) {
     $("#win").text(userScore)
+    document.getElementById("#win")++;
     alert("You Won!");
 }
 
-else if (ranNum < crysNum) {
-    $("#loser").text(userScore)
-    alert("You Loss!")
-}
-
+// else ranNum != crysNum
+// $("#loser").text(userScore)
+// document.getElementById("#loser");
+// // alert("You Loss!");
